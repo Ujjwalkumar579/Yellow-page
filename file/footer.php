@@ -60,7 +60,7 @@
 
 
                 <div class="col-12 text-center pt-3">
-                 <p>© 2017 Classifiedspot. <span class="text-secondary">All rights reserved. Theme by</span> Ujjwal Kumar</p> 
+                 <p>© 2021 Classifiedspot. <span class="text-secondary">All rights reserved. Theme by</span> Ujjwal Kumar</p> 
                 </div>
             </div>
         </div>
