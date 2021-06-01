@@ -1,0 +1,871 @@
+
+
+/*top-bar*/
+.login
+{
+    padding: 0px;
+}
+
+.login li
+{
+    list-style: none;
+    display: inline-block;
+    padding-top: 15px;  
+    cursor: pointer;
+}
+
+.login li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.login li .fa-key
+{
+    margin-left: 25px;
+}
+
+.login li .fa-key
+{
+    color: rgb(255, 233, 30);
+}
+.login li .fa-plus-square
+{
+    color: rgb(255, 233, 30);
+}
+.login li span
+{
+    font-weight: 500;
+}
+.login li span:hover
+{
+    color: rgb(255, 233, 30);
+}
+
+.top-nav li a
+{
+    display: inline-block;
+    padding: 6px 0px 15px 0px;
+    margin-left: 45px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.form-content form
+{
+    display: inline-flex;
+    
+
+}
+
+.top-nav li a:hover
+{
+    color: rgb(255, 233, 30);
+}
+
+.top-nav .dropdown-menu a
+{
+    
+    padding: 8px;
+    margin: 0px;
+}
+
+.city
+{
+    border-radius: 30px;
+}
+
+.select-input .col-lg-3 select:focus
+{
+    box-shadow: none;
+    outline: none;
+}
+
+.select-input .col-lg-4 input:focus
+{
+    box-shadow: none;
+    outline: none;
+}
+
+.select-input .col-lg-2 button:focus
+{
+    box-shadow: none;
+    outline: none;
+}
+
+.category
+{
+    border-radius: 30px;
+}
+.grp1
+{
+    border-radius: 30px;
+}
+.grp2
+{
+    border-radius: 30px;
+}
+
+
+.listing
+{
+    border-radius: 30px;
+}
+
+
+
+                                    /*owl carousel*/
+
+
+
+.img-area
+{
+    display: inline-block;
+    overflow: hidden;
+    margin-top:5px ;
+
+}
+
+
+.img-area img
+{
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    padding: 15px;
+    
+}
+
+.content p
+{
+    text-align: center;
+    padding: 20px;
+}
+
+
+                             /*owl carousel end*/
+
+.category-title span
+{
+    font-size: 25px;
+    font-weight: bolder;
+    border-bottom: 6px solid rgb(255, 233, 30);
+    padding: 13px;
+}
+
+.category-icons .col-lg-2 a 
+{
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.imgarea
+{
+    border: 1px solid rgb(182, 182, 182) ; 
+}
+
+/*.imgarea :hover
+{
+    width: 110%;
+}*/
+
+
+@media screen and (min-width:1199px) {
+    .padd 
+    {
+        margin-top: -24px;
+    }
+
+}
+
+@media screen and (max-width:768px)
+{
+    .imgarea .icons
+    {
+        width: 145px;
+        height: 145px;
+    }    
+
+    .marginimg
+    {
+        margin-top: 20px;
+    }
+}
+
+.usefulink p
+{
+    font-size: 20px;
+    font-weight: 900;
+}
+.usefulink1 ul li
+{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.usefulink1 ul a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.usefulink1 ul a:hover
+{
+    color:rgb(255, 233, 30);
+}
+
+.usefulink2 ul li
+{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.usefulink2 ul a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.usefulink2 ul a:hover
+{
+    color: rgb(255, 233, 30);
+}
+
+.social-icons
+{
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.social-icons ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 12px 17px;
+    margin-top: 10%;
+    background: floralwhite;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    color: black;
+
+}
+
+.social-icons ul a
+{
+    color: black;
+}
+
+.social-icons ul li:hover
+{
+    background: rgb(255, 233, 30);
+}
+
+/*about section*/
+
+.about-intro p
+{
+    font-size: 13px;
+    line-height: 25px;
+    padding-top: px;
+}
+.our-team
+{
+    background: rgb(238, 235, 235);
+    height: 280px;
+    border: 1px solid rgb(180, 180, 180);  
+}
+
+@media screen and (max-width:991px) {
+    .our-team
+    {
+        height: 360px;
+        margin-top: 20px;
+    }
+
+    .numbers
+        {
+            padding-top: 30px;
+        }
+}
+
+@media screen and (max-width:768px) {
+    .our-team
+    {
+        height: 500px;
+        margin-top: 20px;
+    }
+}
+
+.users-data
+{
+    background-color: rgb(240, 240, 240);
+}
+
+.users-data h2
+{
+    color: rgb(167, 36, 167);
+}
+
+/*contact us section*/
+.breadcrumb a 
+{
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+    font-size: 14px;
+}
+
+.gmap iframe
+{
+    height: 300px;
+}
+
+.query
+{
+    background: rgb(240, 240, 240);
+}
+
+.gol
+{
+    border-radius: 30px;
+}
+
+.side-menu-links
+{
+    border-radius:8px ;
+}
+
+.side-menu-links .row .col-12  p a
+{
+    text-decoration: none;
+    color: rgb(78, 78, 78);
+    padding: 0px;
+    font-size: 13px;
+    
+}
+
+.side-menu-search input:focus
+{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid grey;
+}
+
+.badge
+{
+    border: 1px solid rgb(160, 160, 160);
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    
+}
+
+.badge:hover
+{
+    background: rgb(241, 241, 241);
+    color: Black;
+}
+
+.badge a
+{
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    font-size: 13px;
+    font-weight: normal;
+}
+
+
+
+/**/.blog-post
+{
+    background: rgb(240, 240, 240);
+    border-radius: 8px;
+}
+
+
+
+.blog-post .blog-data .row .col-lg-2 .date-square
+{
+    background: yellow;
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    margin-top: -35px;
+    margin-left: 40px;
+    text-decoration: none;
+    color: black;
+}  
+
+
+ .blog-article p
+{
+    color: grey;
+    font-size: 13px;
+   /* padding: 0px 0px 20px 40px;*/
+    line-height: 25px;
+}
+.blog-article a
+{
+    
+    border-radius:30px;
+    font-weight: 500;
+    margin-top: -15px;
+}
+
+.blog-article .btn-dark:hover
+{
+    background: yellow;
+    border:1px solid yellow;
+    color: black;
+    font-weight: 500;
+}
+
+.blog-article .special
+{
+    background-color: floralwhite;
+    border-top: 3px solid gold;
+    padding: 12px 18px 12px 18px;
+    font-size: 16px;
+    color: rgb(97, 97, 97);
+    font-weight: 600;
+    font-style: italic;
+}
+
+.blog-article .blog-tags
+{
+    background: floralwhite;
+    border: 1px solid rgb(221, 221, 221);
+    padding: 12px 18px 12px 18px;
+}
+
+.blog-article .blog-tags .badge
+{
+    color: red;
+    text-decoration: none;
+    color: rgb(122, 122, 122);
+    padding: 8px;
+    margin: 0px;
+}
+
+.blog-article .blog-tags .badge :hover
+{
+    background: rgb(241, 241, 241);
+}
+
+.listing-form
+{
+    border: 1px solid black;
+}
+
+.listing-form .pad
+{
+    padding: 8px 8px 0px 8px;
+
+}
+
+.listing-form .pad h5
+{
+    padding: 15px;
+    padding-left: 20px;
+    background: rgb(241, 241, 241);
+}
+
+.listing-form form input:focus
+{
+    box-shadow:none;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.listing-form form textarea:focus
+{
+    box-shadow:none;
+    outline: none;
+    border: 1px solid grey;
+    
+}
+
+#label .text-end #para
+{
+    font-size: 12px;
+}
+
+
+#submit-button
+{
+    border-radius: 30px !important;
+}
+
+#vehicle-featured-post .card
+{
+    border-radius: 10px;
+}
+
+#vehicle-featured-post .card-body a
+{
+    text-decoration: none;
+    color: rgb(32, 32, 32);
+
+}
+
+#vehicle-featured-post .card-body span
+{
+   font-size: 12px;
+   color: rgb(122, 122, 122);
+   font-weight: 700;
+}
+
+#vehicle-featured-post .card
+{
+    overflow: hidden;
+}
+
+#vehicle-featured-post .card .card-img
+{
+    overflow: hidden;
+}
+
+#vehicle-featured-post .card a img
+{
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: ease-in-out;
+    transition-duration: 0.3s;
+}
+
+#vehicle-featured-post .card a img:hover
+{
+    opacity: 1;
+    
+    transform: scale(1.2);
+    overflow: hidden;
+
+}
+
+.condition_points
+{
+    background: rgb(228, 228, 228);
+}
+
+.condition_points h5
+{
+    color: rgb(150, 149, 149);
+}
+
+.condition_points p
+{
+    color: rgb(88, 88, 88);
+    font-size: 13px;
+    line-height: 25px;
+    
+}
+
+
+.accordion .accordion-item .accordion-body
+            {
+                background: rgb(228, 228, 228);
+                
+            }
+
+ .accordion .accordion-item .accordion-header button
+        {
+            font-weight: 700;
+            color: black;
+            background: rgb(228, 228, 228);
+        }
+
+.accordion .accordion-item .accordion-header button:focus
+{
+    outline: none;
+    box-shadow: none;
+    
+}
+
+
+ .accordion .accordion-item .accordion-body .accordion-text
+ {
+                        
+     font-size: 13px;
+}
+
+.main-div
+{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;  
+}
+
+.login-reg
+{
+    width:400px;
+    height: 500px;
+    background: yellow;
+    margin: 50px auto;
+    position: relative;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.button-div
+{
+    width: 350px;
+    height: 40px;
+    margin: 10px auto;
+    /* background: #000; */
+    position: relative;
+}
+.toggle-btn
+{
+    padding: 6px 60px;
+    position: relative;
+    outline: none;
+    border: none;
+    background:transparent ;
+    color: red;
+}
+.toggle-btn:focus
+{
+    color: yellow;
+}
+
+.toggle-btn:active
+{
+    color:black;
+}
+.toggle-btn:focus
+{
+    outline: none;
+    border: none;
+}
+
+#btn-bg
+{
+    background: black;
+    height: 100%;
+    width: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+
+.social-icons
+{
+    margin: 30px auto; 
+    text-align: center;
+}
+
+.social-icons .icons
+{
+    
+    margin: 0 12px;
+    font-size: 25px;
+}
+
+.input-field-form
+{
+    width: 350px;
+    position: absolute;
+    top: 130px;
+    transition: .5s; 
+}
+
+.input-field
+{
+    width: 100%;
+    margin: 15px auto;
+    padding: 5px 8px;
+    border-left: 0;
+    border-right: 0px;
+    border-top: 0px;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+
+::placeholder
+{
+    color: black;
+}
+.check
+{
+    margin: 10px ;
+}
+
+
+.submit-btn
+{
+    display: block;
+    width: 80%;
+    padding: 5px 30px;
+    outline: none;
+    border: 0;
+    margin: 20px auto;
+    background: black;
+    color: yellow;
+    font-weight: bold;
+}
+
+#register
+{
+    left: -400px;
+}
+
+.bg-grey
+{
+    background: rgb(240, 240, 240);
+    padding: 10px;
+}
+
+.profile-pic
+{
+    width: 180px;
+    height: 180px;
+    background: black;
+    border-radius: 50%; 
+    overflow: hidden;
+    
+}
+
+.profile-pic img
+{
+    width: 130%;
+    
+}
+
+.profile-name
+{
+    padding: 50px 0px 10px 10px;
+   
+}
+
+.profile-name p
+{
+    text-align: end;
+    margin-top: -50px;
+    padding-right:20px ;
+}
+
+@media screen and (max-width:992px) 
+{
+    .profile-name p
+        {
+            text-align: start;
+            margin-top: 0px;
+            margin-left: 20px;
+        }
+    .profile-name h3
+    {
+        margin-left: 20px;
+    }
+
+    .profile-name .fa-map-marker-alt
+        {
+            margin-left: 20px;
+        }
+}   
+    
+
+
+.nav-pills .nav-item
+{
+    padding: 5px;
+    border-radius: 0px;
+    
+}
+
+.nav-pills .nav-item a
+{
+    border-radius: 0px;
+    padding: 13px ;
+   border: 2px solid #ffc107;
+   color: black;
+   font-weight: 500;
+}
+
+
+
+.content-in-tab p
+{
+    color: grey;
+    font-size: 13px;
+}
+
+.my-ads{
+  
+    position: relative;
+}
+
+.my-ads-inner
+{
+    width: 120px;
+    height: 120px;
+    background: #ffc107;
+    border-radius: 50%; 
+    display: inline-block;
+    cursor: pointer;
+}
+
+.my-ads-inner .fa-3x
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: inline-block;
+    transform: translateX(-50%) translateY(-50%);
+    cursor: pointer;
+
+    
+}
+
+.logout-btn
+{
+    position: absolute;
+    
+    
+}
+
+.logout-btn button
+{
+    position: relative;
+    top: -110px;
+    left: 700px;
+}
+
+.logout-btn button a
+{
+    text-decoration: none;
+    color:#ffc107 ;
+}
+
+@media screen and (max-width:992px) {
+    .logout-btn button
+    {
+        position: relative;
+        top: -110px;
+        
+    }
+
+    
+     
+}
+
+@media screen and (max-width:1198px) {
+    .logout-btn button
+    {
+        position: relative;
+        top: -110px;
+        left: 0px;
+    }
+     
+}
